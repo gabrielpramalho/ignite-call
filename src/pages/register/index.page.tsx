@@ -74,7 +74,7 @@ export default function Register() {
         <label>
           <Text size="sm">Nome de usuário</Text>
           <TextInput
-            crossOrigin
+            crossOrigin=""
             prefix="ignite.com/"
             placeholder="seu-usuario"
             {...register('username')}
