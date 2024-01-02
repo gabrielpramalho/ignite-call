@@ -4,10 +4,14 @@ import { Container, Hero, Preview } from './styles'
 import previewImage from '@/assets/app-preview.png'
 import Image from 'next/image'
 import { ClaimUsernameForm } from './components/ClaimUsernameForm'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <Container>
+      <Head>
+        <title>Ignite Call</title>
+      </Head>
       <Hero>
         <Heading as="h1" size="4xl">
           Agendamento descomplicado
